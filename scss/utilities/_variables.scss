@@ -1,0 +1,31 @@
+//---------------------
+//  color variable
+//---------------------
+$primary-color:#58e1c1;
+$secondary-color:#777;
+$tertiary-color:#fff;
+$bordercolor: #ccc;
+$link-color:#51ddfc;
+$backcolor1:#927bc1;
+$backcolor2:#fd7856;
+$backcolor3:#deb2ee;
+$backcolor4:#7ee6fd;
+$backcolor5:#88d9a0;
+$backcolor6:#4da2bb;
+$backcolor7:#ec9fa3;
+$backcolor8:#fd9f85;
+$backcolor9:#e4757a;
+$backcolor10:#63cc82;
+$backcolor12: #80e8d1;
+
+$link-color-light: lighten($link-color, 25%);
+$backcolor1-light: lighten($backcolor1, 25%);
+$backcolor2-light: lighten($backcolor2, 25%);
+$backcolor9-light: lighten($backcolor9, 25%);
+$backcolor10-light: lighten($backcolor10, 25%);
+
+//---------------------
+//     breakpoint
+//---------------------
+
+$breakpoint-s: 768px;

@@ -1,0 +1,51 @@
+%btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $tertiary-color;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.btn{
+  &.default {
+    @extend %btn;
+    background-color: $link-color;
+    &:hover{
+      background-color: $link-color-light;
+    }
+  }
+
+  &.error {
+    @extend %btn;
+    background-color: $backcolor9;
+    &:hover{
+      background-color: $link-color-light;
+    }
+  }
+
+  &.info {
+    @extend %btn;
+    background-color: $backcolor1;
+    &:hover{
+      background-color: $backcolor1-light;
+    }
+  }
+
+  &.success {
+    @extend %btn;
+    background-color: $backcolor10;
+    &:hover{
+      background-color: $backcolor10-light;
+    }
+  }
+
+  &.warning {
+    @extend %btn;
+    background-color: $backcolor2;
+    &:hover{
+      background-color: $backcolor2-light;
+    }
+  }
+}
